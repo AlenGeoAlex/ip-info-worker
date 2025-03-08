@@ -13,7 +13,8 @@
 	"d1_databases": [
 		{
 			"binding": "acl",
-			"database_name": "ip-api-access"
+			"database_name": "ip-api-access",
+			"database_id": "fce9ecd1-c968-422e-afdb-f8305496af28"
 		}
 	]
 	/**
