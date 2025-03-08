@@ -88,7 +88,7 @@ async function ensureAcl(env: Env, req: Request): Promise<boolean | string> {
 		return true;
 
 	if(!aclAddresses.includes(originAddress))
-		return "The origin address is not allowed to use this api. Please refrain from using this";
+		return `The origin ${originAddress} address is not allowed to use this api. Please refrain from using this`;
 
 	return true;
 }
